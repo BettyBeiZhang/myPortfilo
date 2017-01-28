@@ -3,6 +3,7 @@
 #skill {
 	background-color: white;
 	padding-top: 75px;
+    margin-bottom: -100px;
 }
 .skillstitle {
 	background-color: white;
@@ -27,11 +28,9 @@ h2 {
 	padding: 10px 0 16px 0;
 	margin: 0 0 30px;
 	text-align:center;
-/*	color:#FF8C00;
-*/	background:#74AFAD;
+	background:#74AFAD;
 	border-radius:2px;
-/*	border: 1px solid #FF8C00;  
-*/}
+}
 
 h2.plataformas {
 	border-radius: 15px 15px 15px 15px;
@@ -68,8 +67,7 @@ h2.programas {
 
 .skill li { 
 	margin-bottom:70px; 
-/*	background:white; 
-*/	height:6px; 
+	height:6px; 
 	border-radius:3px; 
 	border-left:1px solid #111; 
 	border-top:1px solid #111; 
