@@ -4,41 +4,87 @@
 <head> 
  <title>BeisPortfilo</title>
 
-
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Oswald" rel="stylesheet"> 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/skillSection.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="source.js"></script>
+
 </head> 
 
 <body>
   <nav class="siteNav">
-    <a class="siteNav_brand pull-left" href="/">Bei Zhang</a>
+    <a class="siteNav_brand pull-left" href="#home">Bei Zhang</a>
     <ul class="siteNav_nav">
     <li class="siteNav_nav_item "></li>
-       <a class= "noDecoration" href="/">HOME</a>
+       <a class= "noDecoration" href="#home">ABOUT ME</a>
      <li class="siteNav_nav_item"></li>
-       <a class= "noDecoration" href="/skill">SKILLS</a>
+       <a class= "noDecoration" href="#skill">SKILLS</a>
      <li class="siteNav_nav_item"></li>
-        <a class= "noDecoration" href="/products">PRODUCTS</a>  
+        <a class= "noDecoration" href="/products">PROJECTS</a>  
      <li class="siteNav_nav_item"></li> 
         <a class= "noDecoration" href="/experience">EXPERIENCE</a>  
     </ul> 	
   </nav>
-  <section class="content">
+  <section class="content" id="home">
+  <div>
+    <h2 class="title">About Me</h2>
+  </div>
+  
    <div class="container">
    <div class="row">
-     <div class="col-md-6 col-md-6">
-     	<img class="myphoto" src="./assets/image1.JPG" alt="">
+     <div class="col-md-6 text-center">
+     	<img id="myphoto" src="./assets/image.PNG" alt="">
      </div>
-     <div>
-     	<h1>Bei Zhang</h1>
-     	<p>I'm a full-stack web developer with a strong JavaScript background.<br> Experienced web development technologies with Angular and React on the front end, and Node, Express Js and MongoDB on the backend. FamilIar with jQuery, MySQL, Bootstrap and  Backbone.<br> Web development gave me a big achievability and challenge which I desire to approach more.  I'm currently looking for full-time or internship software engineer job opportunities.</p>
-     </div>
-      
-   	
-   </div>
-  	
+     <div  class="col-md-6"> 
+     	<p class="bio">Web development gave me a big achievability and challenge which I desire to approach more.<br><br> Experienced web development technologies with Angular and React on the front end, and Node, Express Js and MongoDB on the backend. FamilIar with jQuery, MySQL, Bootstrap and  Backbone.<br><br> </p>
+     </div>     
+   	</div>
+   </div> 	
   </section>
+
+   <!-- skill section -->
+  <section id="skill">
+  <h2 class="skillstitle">TECHNICAL SKILLS </h2>
+   <div class="container">
+    <div class="col">
+      <h2 class="titulo">Strong</h2>
+      <ul class="skill">
+        <li><span class="blueline html"></span><em>HTML</em></li>
+        <li><span class="blueline css"></span><em>CSS</em></li>
+        <li><span class="blueline javascript"></span><em>Javascript</em></li>
+        <li><span class="blueline angular"></span><em>Angular</em></li> 
+        <li><span class="blueline node"></span><em>Node</em></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2 class="plataformas titulo">Intermediate</h2>
+      <ul class="skill">
+        <li><span class="greenline mongodb"></span><em>MongoDB</em></li>
+        <li><span class="greenline react"></span><em>React</em></li>
+        <li><span class="greenline redux"></span><em>Redux</em></li>
+        <li><span class="greenline jquery"></span><em>jQuery</em></li>
+        <li><span class="greenline bootstrap"></span><em>Bootstrap</em></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2 class="programas titulo">Beginner</h2>
+      <ul class="skill">
+        <li><span class="redline heroku"></span><em>Heroku</em></li>
+        <li><span class="redline backbone"></span><em>Backbone</em></li>
+        <li><span class="redline ES6"></span><em>ES6</em></li>
+        <li><span class="redline ruby"></span><em>Ruby</em></li>
+        <li><span class="redline python"></span><em>Python</em></li>
+      </ul>
+    </div>
+  </div>   
+  </section>
+
+  
+
+
 	
 
 
