@@ -22,6 +22,4 @@
   });
 
 
-  $('#linkbtn').click(function() {
-    $(this).addClass("floating");
-  });
+ 
