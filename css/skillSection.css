@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-	font-size: 2.7em;
+	font-size: 2.0em;
 	font-weight: normal;
 	padding: 10px 0 16px 0;
 	margin: 0 0 30px;
@@ -111,8 +111,8 @@ h2.programas {
 /*programacion*/
 .html        { width:90%;  animation:html 2s ease-out;       }
 .css         { width:95%;  animation:css 2s ease-out;        }
-.javascript  { width:70%;  animation:javascript 2s ease-out;        }
-.angular     { width:50%;  animation:angular 2s ease-out; }
+.javascript  { width:80%;  animation:javascript 2s ease-out;        }
+.angular     { width:80%;  animation:angular 2s ease-out; }
 .node        { width:70%;  animation:node 2s ease-out;     }
 
 /*plataformas*/
